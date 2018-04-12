@@ -1,6 +1,6 @@
-## papers
+# papers
 
-## web sources
+# web sources
 
-# SVD 奇异值分解:
-https://github.com/Yuanpengli/records.git
+## SVD 奇异值分解:
+http://www.cnblogs.com/LeftNotEasy/archive/2011/01/19/svd-and-applications.html
