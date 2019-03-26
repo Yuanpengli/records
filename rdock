@@ -5,3 +5,9 @@ cd ChemGE_1
 python pdb2sd.py Ligand.pdb
 python pdb2mol.py RET_pro.pdb
 
+bash gen_prm Ligand.sd RET_pro.mol2 > ret.prm
+rbcavity -r ret.prm -W (大写W)
+
+cp ret.prm ret.as RET_pro.mol2 Ligand.sd ../
+
+python -u optimize-rdock.py
