@@ -1,0 +1,7 @@
+doking software: rdock
+
+
+cd ChemGE_1
+python pdb2sd.py Ligand.pdb
+python pdb2mol.py RET_pro.pdb
+
